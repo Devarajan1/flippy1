@@ -69,7 +69,7 @@ export default function FlipcartScrape() {
             catch (error) {
 
                 setScraping(false)
-                scrape()
+              
                 console.log('Error', error)
             }
         }
